@@ -1,13 +1,7 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
-var friends = [
+const friends = [
     {
         "name":"Paige",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://via.placeholder.com/200x200.jpg",
         "scores":[
            5,
            1,
@@ -23,7 +17,7 @@ var friends = [
         },
     {
     "name":"Cindy",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -39,7 +33,7 @@ var friends = [
   },
   {
     "name":"Theresa",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        9,
        1,
@@ -55,7 +49,7 @@ var friends = [
   },
   {
     "name":"Anthony",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -71,7 +65,7 @@ var friends = [
   },
   {
     "name":"John",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -87,7 +81,7 @@ var friends = [
   },
   {
     "name":"Kaleb",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -103,7 +97,7 @@ var friends = [
   },
   {
     "name":"Alyssa",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -119,7 +113,7 @@ var friends = [
   },
   {
     "name":"Jenna",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -135,7 +129,7 @@ var friends = [
   },
   {
     "name":"James",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -151,7 +145,7 @@ var friends = [
   },
   {
     "name":"David",
-    "photo":"",
+    "photo":"https://via.placeholder.com/200x200.jpg",
     "scores":[
        5,
        1,
@@ -166,6 +160,4 @@ var friends = [
         ]
   }
   ]
-  
-  // Note how we export the array. This makes it accessible to other files using require.
   module.exports = friends;
