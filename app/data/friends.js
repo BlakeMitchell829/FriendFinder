@@ -51,3 +51,7 @@ const friends = [
   }
 ];
 module.exports = friends;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d1e31451c9feb6e70241a5b977114c6069a7ac3a
