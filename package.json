@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlakeMitchell829/FriendFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlakeMitchell829/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/BlakeMitchell829/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
