@@ -1,171 +1,53 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
-var friends = [
-    {
-        "name":"Paige",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-           5,
-           1,
-           4,
-           4,
-           5,
-           1,
-           2,
-           5,
-           4,
-           1
-            ]
-        },
-    {
-    "name":"Cindy",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       4,
-       5,
-       1,
-       2,
-       5,
-       4,
-       1
-        ]
+const friends = [
+  {
+    name: "Paige",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
   },
   {
-    "name":"Theresa",
-    "photo":"",
-    "scores":[
-       9,
-       1,
-       4,
-       4,
-       5,
-       1,
-       2,
-       5,
-       4,
-       1
-        ]
+    name: "Cindy",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
   },
   {
-    "name":"Anthony",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       3,
-       2,
-       6,
-       9,
-       8,
-       9,
-       9
-        ]
+    name: "Theresa",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [9, 1, 4, 4, 5, 1, 2, 5, 4, 1]
   },
   {
-    "name":"John",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       3,
-       2,
-       6,
-       9,
-       8,
-       9,
-       9
-        ]
+    name: "Anthony",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 3, 2, 6, 9, 8, 9, 9]
   },
   {
-    "name":"Kaleb",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       3,
-       2,
-       6,
-       9,
-       8,
-       9,
-       9
-        ]
+    name: "John",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 3, 2, 6, 9, 8, 9, 9]
   },
   {
-    "name":"Alyssa",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       3,
-       2,
-       6,
-       9,
-       8,
-       9,
-       9
-        ]
+    name: "Kaleb",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 3, 2, 6, 9, 8, 9, 9]
   },
   {
-    "name":"Jenna",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       3,
-       2,
-       6,
-       9,
-       8,
-       9,
-       9
-        ]
+    name: "Alyssa",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 3, 2, 6, 9, 8, 9, 9]
   },
   {
-    "name":"James",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       3,
-       2,
-       6,
-       9,
-       8,
-       9,
-       9
-        ]
+    name: "Jenna",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 3, 2, 6, 9, 8, 9, 9]
   },
   {
-    "name":"David",
-    "photo":"",
-    "scores":[
-       5,
-       1,
-       4,
-       3,
-       2,
-       6,
-       9,
-       8,
-       9,
-       9
-        ]
+    name: "James",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 3, 2, 6, 9, 8, 9, 9]
+  },
+  {
+    name: "David",
+    photo: "https://via.placeholder.com/200x200.jpg",
+    scores: [5, 1, 4, 3, 2, 6, 9, 8, 9, 9]
   }
-  ]
-  
-  // Note how we export the array. This makes it accessible to other files using require.
-  module.exports = friends;
+];
+module.exports = friends;
